@@ -25,8 +25,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("👨‍💻 Developed by: **Amit verma**")
     st.markdown("🔗 GitHub: [Amit verma](https://github.com/V19Amit)")
-    st.markdown("🔗 LinkedIn: [Profile](https://www.linkedin.com/in/amit-verma-b75373326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-)")
+    st.markdown("🔗 LinkedIn: [Profile](https://www.linkedin.com/in/amit-verma-b75373326)")
     st.markdown("---")
     st.markdown("✨ **Have fun exploring AI!**")
 
@@ -146,4 +145,5 @@ if st.button("Predict"):
 
         except Exception as e:
             st.error(f"Error during prediction: {e}")
+
 
